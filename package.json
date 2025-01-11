@@ -6,6 +6,9 @@
   "engines": {
     "vscode": "^1.96.0"
   },
+  "repository": {
+    "url": "https://github.com/Thienan1092005/Yuki_Snippets.git"
+  },
   "icon": "./icon",
   "categories": [
     "Snippets"
