@@ -1,7 +1,7 @@
 {
   //create redux template
   "create-redux-template": {
-    "prefix": "!create-reudx",
+    "prefix": "create-reudx",
     "body": [
       "import { configureStore } from '@reduxjs/toolkit';",
       "import { useDispatch, useSelector } from 'react-redux';",
@@ -23,7 +23,7 @@
   },
   //create redux slice template
   "Create Redux Slice": {
-    "prefix": "!rfslice",
+    "prefix": "create-slice",
     "body": [
       "import { createSlice } from '@reduxjs/toolkit';",
       "import { RootState } from '../store';",
