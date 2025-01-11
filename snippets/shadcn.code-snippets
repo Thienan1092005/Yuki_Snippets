@@ -1,0 +1,30 @@
+{
+  "create-shadcnui-dialog": {
+    "prefix": "!dialog",
+    "body": [
+      "import { Dialog, DialogContent } from '@/components/ui/dialog';",
+      "",
+      "export default function ${TM_FILENAME_BASE}({",
+      "  isOpen,",
+      "  onClose,",
+      "}: {",
+      "  isOpen: boolean;",
+      "  onClose: () => void;",
+      "}) {",
+      "  const handleCloseDialog = (isOpen: boolean) => {",
+      "    if (!isOpen) {",
+      "      onClose();",
+      "    }",
+      "  };",
+      "",
+      "  return (",
+      "    <Dialog open={isOpen} onOpenChange={handleCloseDialog}>",
+      "      <DialogContent></DialogContent>",
+      "    </Dialog>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "create-shadcnui-dialog"
+  }
+}
